@@ -10,7 +10,7 @@ async function delayTime(ms) {
 }
 
 (async () => {
-  // 读取 accounts.json 中的 JSON 字符串--1
+  // 读取 accounts.json 中的 JSON 字符串----1
   const accountsJson = fs.readFileSync('accounts.json', 'utf-8');
   const accounts = JSON.parse(accountsJson);
 

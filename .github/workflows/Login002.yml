@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron: '30 2 */10 * *'
+    - cron: '28 2 */20 * *'
 
 env:
   ACCOUNTS_JSON: ${{ secrets.ACCOUNTS002_JSON }}
